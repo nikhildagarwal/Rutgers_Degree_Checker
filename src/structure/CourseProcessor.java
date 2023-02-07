@@ -27,14 +27,15 @@ public class CourseProcessor {
 
                 try{
                     if(tokens[0].equals("Q")){
-                        System.out.println("Reader terminated.");
+                        ystem.out.println("Reader terminated.");
                         System.out.println("");
                         System.out.println("** Course List **");
                         for(int i =0;i<courseList.size();i++){
                             System.out.println(courseList.get(i));
                         }
                         System.out.println("");
-                        System.out.println(courseList.getTotalCredits());
+                        System.out.println("Total Number of Credits: "+courseList.getTotalCredits());
+                        System.out.println("Total Number of Credits Used In GPA Calculation: "+courseList.getCreditsToGpa());
                         double credToG = courseList.getCreditsToGpa();
                         System.out.println(courseList.getWeightedSum()/credToG);
                         return;
