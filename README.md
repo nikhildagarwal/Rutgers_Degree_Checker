@@ -10,6 +10,7 @@ to create a working list of courses taken by a particular student, to sort the l
 check to see if the student has the requirements or is on track to graduate.
 
 Input consists of CourseCode, credits, Semester, Year, Grade.
+
 Ex:  01:198:206  4  Fall 2022  A  
 
 After clicking run, the example inputTestCase.txt file can be copy pasted into the console. After hitting enter, press Q. "Q" is the signal for our driver class
