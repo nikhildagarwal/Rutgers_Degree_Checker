@@ -17,5 +17,7 @@ After clicking run, the example inputTestCase.txt file can be copy pasted into t
 (RunChecker.java) to terminate. After terminating the program will output a list of courses that we have input. It will also output the total credits completed
 by the student as well as the students current GPA.
 
+*NOTE* the test cases are real, complete, and pulled directly from my own transcript.
+
 Functionalities are still being added, and the project will be updated as working progress is made. This personally is useful to me and could also be very useful
 to other students.
